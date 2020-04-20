@@ -1,0 +1,42 @@
+[ 2016-06-26T19:38:50+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmessage/10
+ERR: 模板不存在:./Home/Home/View/Index/showmessage.html
+
+[ 2016-06-26T20:07:02+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/show/10
+ERR: 模板不存在:./Home/Home/View/Index/show.html
+
+[ 2016-06-26T20:30:22+08:00 ] ::1 /thinkphp_blog/index.php/home/index/show10
+ERR: 非法操作:show10
+
+[ 2016-06-26T20:30:29+08:00 ] ::1 /thinkphp_blog/index.php/home/index/show12
+ERR: 非法操作:show12
+
+[ 2016-06-26T20:30:37+08:00 ] ::1 /thinkphp_blog/index.php/home/index/show10
+ERR: 非法操作:show10
+
+[ 2016-06-26T20:30:45+08:00 ] ::1 /thinkphp_blog/index.php/home/index/show10
+ERR: 非法操作:show10
+
+[ 2016-06-26T20:31:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/Public/bootstrap/css/bootstrap.min.css
+ERR: 非法操作:public
+
+[ 2016-06-26T20:31:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/Public/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:public
+
+[ 2016-06-26T20:31:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/Public/Css/main.css
+ERR: 非法操作:public
+
+[ 2016-06-26T20:31:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/Public/bootstrap/js/bootstrap.min.js
+ERR: 非法操作:public
+
+[ 2016-06-26T20:31:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/index.php/Home/Index/showmsg
+ERR: 非法操作:index.php
+
+[ 2016-06-26T20:31:50+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/show/10
+ERR: 非法操作:show
+
+[ 2016-06-26T20:59:13+08:00 ] ::1 /thinkphp_blog/
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2016-06-26T20:59:18+08:00 ] ::1 /thinkphp_blog/
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+

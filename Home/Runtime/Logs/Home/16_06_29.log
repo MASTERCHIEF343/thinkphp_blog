@@ -1,0 +1,6 @@
+[ 2016-06-29T13:53:58+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` () VALUES ()
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` () VALUES ()
+

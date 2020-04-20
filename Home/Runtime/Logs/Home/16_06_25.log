@@ -1,0 +1,594 @@
+[ 2016-06-25T08:37:18+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1146:Table 'blog.blg_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_user`
+ERR: 1146:Table 'blog.blg_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_user`
+
+[ 2016-06-25T08:38:55+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1146:Table 'blog.blg_msg' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_msg`
+ERR: 1146:Table 'blog.blg_msg' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_msg`
+
+[ 2016-06-25T08:39:34+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1146:Table 'blog.blg_msg' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_msg`
+ERR: 1146:Table 'blog.blg_msg' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_msg`
+
+[ 2016-06-25T08:39:35+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1146:Table 'blog.blg_msg' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_msg`
+ERR: 1146:Table 'blog.blg_msg' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blg_msg`
+
+[ 2016-06-25T08:40:24+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+
+[ 2016-06-25T08:40:25+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+
+[ 2016-06-25T08:40:25+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+
+[ 2016-06-25T08:40:25+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','123','###1111','2016/06/25')
+
+[ 2016-06-25T09:08:20+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','第一篇文章','这是一个测试！','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','第一篇文章','这是一个测试！','2016/06/25')
+
+[ 2016-06-25T09:13:11+08:00 ] ::1 /thinkphp_blog/index.php/home/index/logincheck
+ERR: 1146:Table 'blog.blog_msguser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blog_msguser`
+ERR: 1146:Table 'blog.blog_msguser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blog_msguser`
+
+[ 2016-06-25T09:13:24+08:00 ] ::1 /thinkphp_blog/index.php/home/index/logincheck
+ERR: 1146:Table 'blog.blog_msguser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blog_msguser`
+ERR: 1146:Table 'blog.blog_msguser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blog_msguser`
+
+[ 2016-06-25T09:13:54+08:00 ] ::1 /thinkphp_blog/index.php/home/index/logincheck
+ERR: 1146:Table 'blog.blog_msguser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blog_msguser`
+ERR: 1146:Table 'blog.blog_msguser' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog`.`blog_msguser`
+
+[ 2016-06-25T09:14:55+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+
+[ 2016-06-25T09:14:56+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+
+[ 2016-06-25T09:14:56+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+
+[ 2016-06-25T09:14:57+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+
+[ 2016-06-25T09:14:57+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+
+[ 2016-06-25T09:14:57+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','6.25-2','第二次测试','2016/06/25')
+
+[ 2016-06-25T09:15:40+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-3')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-3')
+
+[ 2016-06-25T09:15:41+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-3')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-3')
+
+[ 2016-06-25T09:15:41+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-3')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-3')
+
+[ 2016-06-25T09:16:17+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-4')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('6.25-4')
+
+[ 2016-06-25T09:17:30+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+
+[ 2016-06-25T09:18:04+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+
+[ 2016-06-25T09:18:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+
+[ 2016-06-25T09:18:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`) VALUES ('123')
+
+[ 2016-06-25T09:25:14+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('1','1')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('1','1')
+
+[ 2016-06-25T09:26:23+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\now()
+
+[ 2016-06-25T09:26:24+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\now()
+
+[ 2016-06-25T09:26:24+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\now()
+
+[ 2016-06-25T09:27:57+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\now()
+
+[ 2016-06-25T09:27:58+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\now()
+
+[ 2016-06-25T09:32:20+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','1','1','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','1','1','2016/06/25')
+
+[ 2016-06-25T09:32:35+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','1','1','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','1','1','2016/06/25')
+
+[ 2016-06-25T09:32:35+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','1','1','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`,`posted`) VALUES ('0','1','1','2016/06/25')
+
+[ 2016-06-25T09:32:47+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+
+[ 2016-06-25T09:33:14+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T09:33:34+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T09:33:48+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+
+[ 2016-06-25T09:33:48+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+
+[ 2016-06-25T09:33:48+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+
+[ 2016-06-25T09:33:48+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`poster`,`title`,`message`) VALUES ('0','1','1')
+
+[ 2016-06-25T09:35:17+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/logupcheck
+ERR: Call to undefined function Home\Controller\halt()
+
+[ 2016-06-25T09:35:30+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/logupcheck
+ERR: Call to undefined function Home\Controller\halt()
+
+[ 2016-06-25T09:42:43+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','333','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','333','2016/06/25')
+
+[ 2016-06-25T09:42:44+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','333','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','333','2016/06/25')
+
+[ 2016-06-25T09:43:23+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','222','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','222','2016/06/25')
+
+[ 2016-06-25T09:44:20+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T09:44:21+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T09:44:21+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`poster`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T09:48:24+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('1','2','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('1','2','2016/06/25')
+
+[ 2016-06-25T09:51:38+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:51:39+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:51:39+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:51:39+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:51:39+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:51:40+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:51:40+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`) VALUES ('123','321')
+
+[ 2016-06-25T09:53:31+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','222','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('111','222','2016/06/25')
+
+[ 2016-06-25T09:59:11+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T10:01:43+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+
+[ 2016-06-25T10:01:43+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+
+[ 2016-06-25T10:01:43+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+
+[ 2016-06-25T10:01:43+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','123','321','2016/06/25')
+
+[ 2016-06-25T10:02:46+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '}', expecting end of file
+
+[ 2016-06-25T10:03:04+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','213','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','213','321','2016/06/25')
+
+[ 2016-06-25T10:03:05+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','213','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`postid`,`title`,`message`,`posted`) VALUES ('0','213','321','2016/06/25')
+
+[ 2016-06-25T10:04:29+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T10:09:06+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T10:09:07+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`message`,`posted`) VALUES ('123','321','2016/06/25')
+
+[ 2016-06-25T10:34:17+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:34:48+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:35:16+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:35:17+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:36:45+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username= ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username= ) LIMIT 1  
+
+[ 2016-06-25T10:38:45+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\cooki()
+
+[ 2016-06-25T10:38:55+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '=', expecting ',' or ')'
+
+[ 2016-06-25T10:39:09+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: Call to undefined function Home\Controller\cooki()
+
+[ 2016-06-25T10:40:30+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:40:56+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `id` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:41:11+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:41:31+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( username=yunjingyang ) LIMIT 1  
+
+[ 2016-06-25T10:57:37+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '$name' (T_VARIABLE)
+
+[ 2016-06-25T10:57:45+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '$name' (T_VARIABLE)
+
+[ 2016-06-25T10:57:49+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/page
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T11:00:44+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`posted`,`message`) VALUES ('123','2016/06/25','321')
+ERR: 1452:Cannot add or update a child row: a foreign key constraint fails (`blog`.`blog_msg`, CONSTRAINT `blog_msg_ibfk_1` FOREIGN KEY (`name`) REFERENCES `blog_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ [ SQL语句 ] : INSERT INTO `blog_msg` (`title`,`posted`,`message`) VALUES ('123','2016/06/25','321')
+
+[ 2016-06-25T11:31:51+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+
+[ 2016-06-25T11:32:02+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+
+[ 2016-06-25T11:32:39+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+
+[ 2016-06-25T11:33:37+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+
+[ 2016-06-25T11:34:15+08:00 ] ::1 /thinkphp_blog/index.php/home/index/insertmsg
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+ERR: 1054:Unknown column 'yunjingyang' in 'where clause'
+ [ SQL语句 ] : SELECT `email` FROM `blog_user` WHERE ( id=yunjingyang ) 
+
+[ 2016-06-25T15:29:18+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '"'
+
+[ 2016-06-25T15:29:28+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '"'
+
+[ 2016-06-25T15:30:12+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '"'
+
+[ 2016-06-25T15:30:39+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `message` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `message` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:45:41+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'field list'
+ [ SQL语句 ] : SELECT `id` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:45:55+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `message` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `message` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:46:44+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:47:20+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:48:07+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:48:13+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) LIMIT 1  
+
+[ 2016-06-25T15:48:56+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) 
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `postid` FROM `blog_msg` WHERE ( id= "3" ) 
+
+[ 2016-06-25T16:00:40+08:00 ] ::1 /thinkphp_blog/index.php/Home/Index/showmsg
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `blog_msg` WHERE ( id="Array" ) LIMIT 1  
+ERR: 1054:Unknown column 'id' in 'where clause'
+ [ SQL语句 ] : SELECT `title` FROM `blog_msg` WHERE ( id="Array" ) LIMIT 1  
+
+[ 2016-06-25T16:45:48+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '='
+
+[ 2016-06-25T16:55:57+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '.1' (T_DNUMBER), expecting ']'
+
+[ 2016-06-25T16:57:38+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T16:57:46+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T16:57:47+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T16:57:47+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T16:57:51+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$data' (T_VARIABLE)
+
+[ 2016-06-25T17:10:34+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$i' (T_VARIABLE), expecting ';'
+
+[ 2016-06-25T17:10:44+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected '$i' (T_VARIABLE), expecting ';'
+
+[ 2016-06-25T17:24:44+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+
+[ 2016-06-25T17:30:29+08:00 ] ::1 /thinkphp_blog/?user=yunjingyang
+ERR: syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+

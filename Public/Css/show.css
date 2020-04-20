@@ -1,0 +1,126 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	padding: 0px;
+}
+/*navigation*/
+.navbar{
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 999;
+}
+/*main-content*/
+#header{
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	height: 300px;
+	background: url(../images/bg03.png) no-repeat;
+	background-size: 100%;
+	z-index: 1;
+}
+.container{
+	position: relative;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+#ds-thread{
+	position: relative;
+	margin: 0 auto;
+	padding: 20px;
+}
+#arraow{
+	display: block;
+	position: fixed;
+	width: 35px;
+	height: 35px;
+	bottom: 7%;
+	right: 10%;
+	background: url(../images/arraow.png);
+	background-size: 100%;
+	cursor: pointer;
+	z-index: 100;
+}
+.logged{
+	display: none;
+}
+/*footer*/
+#footer{
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+	height: 100px;
+}
+#friendlink{
+	position: relative;
+	top: 10px;
+	width: 200px;
+	margin: 0 auto;
+}
+#friendlink ul li{
+	list-style-type: none;
+}
+#friendlink ul li a{
+	display: block;
+	float: left;
+	margin-right:20px;
+}
+#friendlink ul li a img{
+	width: 30px;
+	height: 30px;
+}
+#copyright{
+	display: block;
+	position: relative;
+	top: 55px;
+	width: 100%;
+	margin: 0 auto;
+	left: -160px;
+	color: #00bb9c;
+}
+/*响应式*/
+@media screen and (min-width: 1200px){
+	.container{
+		width: 1140px;
+	}
+	#ds-thread{
+		width: 1130px;
+	}
+}
+@media screen and (min-width: 992px){
+	.container{
+		width: 970px;
+	}
+	#ds-thread{
+		width: 940px;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	.container{
+		width: 750px;
+	}
+	#ds-thread{
+		width: 720px;
+	}
+}
+@media screen and (max-width: 768px){
+	.navbar-static-top {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	#copyright{
+		width: 120%;
+	}
+	#header{
+		margin-bottom: 10px;
+		background-size: 100% 100%;
+	}
+	.navbar .nav>li{
+		float: none;
+	}
+	h1{
+		word-break: break-all;
+	}
+}
